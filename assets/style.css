@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 17vh;
+    display: flex;
+    font-family: 'Lily Script One', cursive;
+    justify-content: center;
+    color: white;
+    background-color: #1E1E1E;
+}
+
+header ul {
+    width: 60vw;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.imagens {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+figure {
+    margin: 30px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer {
+    height: 17vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #1E1E1E;
+}
+
+nav {
+    width: 15vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav img {
+    width: 3vw;
+}
+
+.insta {
+    width: 2vw;
+    position: relative;
+    top: 10px;
+}
